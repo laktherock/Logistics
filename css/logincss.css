@@ -1,0 +1,130 @@
+@font-face {
+   font-family: farray;
+   src: url(FARRAY.otf);
+}
+@font-face {
+   font-family: valerie;
+   src: url(Valerie-Medium.ttf);
+}
+
+body{
+	font-family: farray;
+}
+.tell {
+    float: right;
+    font-size: 16px;
+    margin-top: 22px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    text-decoration: none;
+    margin-top: 22px;
+}
+nav ul li a{
+	 text-decoration: none;
+	 padding: 10px;
+	 color: black;
+	 font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    //border: 2px solid #DB040B;
+
+    color: #DB040B;
+}
+.logo{
+	font-size: 20px;
+}
+.one{
+	font-size: 34px;
+	color: #db040b;
+}
+footer{
+	background: #000;
+	padding: 10px;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+}
+.login {
+  //  border: 2px solid black;
+    height: 96px;
+    left: 117px;
+    padding: 8px;
+    position: absolute;
+    top: 267px;
+    width: 25%;
+}
+input[type=text] {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #B23713;
+    margin-top: 10px;
+    text-transform: lowercase;
+    color: #B23713;
+}
+.login button {
+    background-color: #db040b;
+    border: 2px solid #b23713;
+    color: #000;
+    float: left;
+    height: 118px;
+    overflow: hidden;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    width: 23%;
+}
+input[type=password] {
+     padding: 15px;
+    text-align: center;
+    border: 2px solid #B23713;
+    margin-top: 10px;
+    text-transform: lowercase;
+    color: #B23713;
+}
+.section1 {
+    padding: 10px;
+}
+.section2 {
+    padding: 10px;
+}
+.cont-head{
+	padding-bottom: 27px;
+}
+.content {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 30px;
+    font-family: ubuntu;
+}
+.about {
+    padding-bottom: 63px;
+    padding-top: 20px;
+    font-size: 23px;
+}
+.phone{
+	color: #db040b;
+}
+.error{
+    position: absolute;
+    top: -26px;
+}
+.error1{
+    position: absolute;
+    top: 161px;
+}
+/*.login button i {
+    left: -15px;
+    position: absolute;
+    top: 49px;
+    overflow: hidden;
+}
+.login button:hover .sign{
+	left: -30px;
+}
+.login button:hover i{
+	right: 0px;
+}*/

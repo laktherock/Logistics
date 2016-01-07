@@ -1,0 +1,64 @@
+@font-face {
+   font-family: farray;
+   src: url(FARRAY.otf);
+}
+body{
+	background-color: #F6F6F6;
+}
+input[type="text"] {
+    border: 2px solid #c0c0c0;
+    margin-top: 10px;
+    padding: 11px;
+    width: 112px;
+    font-size: 17px;
+    color: #020202;
+    margin-right: 5px;
+}
+input[type="text"]:focus {
+    border: 2px solid #DB040B;
+    }
+#textarea {
+    border: 2px solid #c0c0c0;
+    height: 162px;
+    margin-top: -20px;
+    width: 345px;
+    padding: 9px;
+    font-size: 17px;
+    color: #020202;
+}
+#textarea:focus{
+    border: 2px solid #DB040B;
+}
+button {
+    border: 2px solid #000;
+    color: #000;
+    font-size: 21px;
+    margin: 20px;
+    padding: 6px;
+    width: 173px;
+}
+select{
+    padding: 7px;
+    width: 199px;
+    //color: #C0C0C0;
+    outline: none;
+}
+button:hover {
+    border: 2px solid #fff;
+    background-color: #272727;
+    color: #fff;
+    margin: 20px;
+    padding: 6px;
+    width: 173px;
+    font-size: 21px;
+}
+.red{
+	color: #DB040B;
+	font-family: farray;
+}
+.errorcontainer {
+    position: absolute;
+    right: 94px;
+    top: 321px;
+    color: red;
+}

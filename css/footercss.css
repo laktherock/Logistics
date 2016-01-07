@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: "farray";
+    src: url("FARRAY.otf");
+}
+nav ul {
+    list-style: outside none none;
+}
+nav ul li {
+    text-decoration: none;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #db040b;
+    text-decoration: none;
+}
+nav ul li a:focus {
+    outline: none;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 13px;
+}
+.one {
+    color: #db040b;
+    font-size: 34px;
+}
+.two {
+    color: #db040b;
+    font-size: 24px;
+}
+.foot-container {
+    background-color: #272727;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+.foot-head {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.company {
+    font-size: 16px;
+}

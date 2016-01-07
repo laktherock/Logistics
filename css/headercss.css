@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: "farray";
+    src: url("FARRAY.otf");
+}
+
+nav ul {
+    list-style: outside none none;
+}
+nav ul li {
+    display: inline;
+    margin-top: 22px;
+    text-decoration: none;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #db040b;
+    text-decoration: none;
+}
+nav ul li a:focus {
+    outline: none;
+}
+.logo {
+    font-size: 20px;
+}
+.one {
+    color: #DB040B;
+    font-size: 34px;
+}
+.head-container {
+    background-color: #272727;
+    padding: 5px;
+    width: 100%;
+    color: #fff;
+}
+.username{
+    font-size: 16px;
+    color: #db040b;
+    display: inline;
+}
+.font{
+    font-size: 16px;
+}
